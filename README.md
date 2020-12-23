@@ -20,3 +20,19 @@ The [express generator](https://developer.mozilla.org/en-US/docs/Learn/Server-si
     - [http-errors](https://www.npmjs.com/package/http-errors): send http errors
 
 
+## Dev Dependencies
+
+### Hotreloading
+
+installed nodeman as developer dependency to enable server reloading when file is changed.
+```sh
+$ npm install --save-dev nodemon
+```
+To allow for greater flexibility, a seperate start script was added to the package.json.
+
+## Eslint
+
+### Exceptions
+
+Default gitignore file used to ignore project dependencies (node_moddules)
+
