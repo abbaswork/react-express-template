@@ -22,16 +22,26 @@ The [express generator](https://developer.mozilla.org/en-US/docs/Learn/Server-si
 
 ## Dev Dependencies
 
+These are installed as dependencies only used during development.
+
 ### Hotreloading
 
-installed nodeman as developer dependency to enable server reloading when file is changed.
+Installed nodeman as developer dependency to enable server reloading when file is changed.
 ```sh
 $ npm install --save-dev nodemon
 ```
-To allow for greater flexibility, a seperate start script was added to the package.json.
+To allow for greater flexibility, a seperate "devstart" script is added to the package.json.
 
 ## Eslint
 
+Installed eslint as developer dependency to perfome static analysis and report non-adherance code.
+```sh
+npm install eslint --save-dev
+```
+A seperate "lint" script is added to the package.json to check js files. The eslint is setup so adhere to the standard js styling guide and installed via
+```sh
+eslint --init
+```
 ### Exceptions
 
 Default gitignore file used to ignore project dependencies (node_moddules)
