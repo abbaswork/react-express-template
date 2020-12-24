@@ -46,3 +46,20 @@ eslint --init
 
 Default gitignore file used to ignore project dependencies (node_moddules)
 
+## Project Structure
+
+The project structure uses CommonJs along with the 3 layer architecture for effective seperation of concerns, where the layers are:
+1. Controller (routes): contains route controllers
+2. Service Layer: Bussiness logic seperated from controller and Data Acess logic.
+3. Data Access Layer:  Database logic and modals
+
+- bin       # app entry point using app.js
+- routes    # route controllers for all the endpoints in the app
+- public    # js, css and image files
+- views     # view template (express)
+- config    # env variables and config files
+- jobs      # jobs to be carried out by workers
+- loaders   # splitting up startup proces into modules (DB, ORM, Redis, etc connections)
+- models    # Database models
+- services  # Bussiness logic
+
