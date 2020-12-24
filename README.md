@@ -1,5 +1,37 @@
 # react-express-template
 
+## Client Setup
+
+### React
+
+React App setup with:
+```sh
+npx create-react-app client
+```
+The [create-react-app](https://github.com/facebook/create-react-app) package comes preconfigured with webpack and babel along with:
+- React, JSX, ES6, Typescript and flow syntax support
+- Autoprefixed css (don't need webkit)
+- Built in unit tester
+- Live development server 
+- Basic scripts to build and run the app
+- service worker and web app manifest
+- easy updates with single dependancy
+- along with a simple starting directory structure and starter package.json
+
+## Sass
+
+Sass is a css precompiled processor for easy and effective css handeling, installed with:
+```sh
+npm install node-sass
+```
+
+### Client Project Structure
+
+- public    # static assets
+- src       # js files
+
+
+
 ## Server Setup
 
 ### Express
@@ -46,7 +78,7 @@ eslint --init
 
 Default gitignore file used to ignore project dependencies (node_moddules)
 
-## Project Structure
+## Server Project Structure
 
 The project structure uses CommonJs along with the 3 layer architecture for effective seperation of concerns, where the layers are:
 1. Controller (routes): contains route controllers
