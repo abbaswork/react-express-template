@@ -32,7 +32,7 @@ $ npm install --save-dev nodemon
 ```
 To allow for greater flexibility, a seperate "devstart" script is added to the package.json.
 
-## Eslint
+### Eslint
 
 Installed eslint as developer dependency to perfome static analysis and report non-adherance code.
 ```sh
@@ -50,8 +50,10 @@ Default gitignore file used to ignore project dependencies (node_moddules)
 
 The project structure uses CommonJs along with the 3 layer architecture for effective seperation of concerns, where the layers are:
 1. Controller (routes): contains route controllers
-2. Service Layer: Bussiness logic seperated from controller and Data Acess logic.
-3. Data Access Layer:  Database logic and modals
+2. Service Layer (services): Bussiness logic seperated from controller and Data Acess logic.
+3. Data Access Layer (models):  Database logic and models
+
+where the folders would be:
 
 - bin       # app entry point using app.js
 - routes    # route controllers for all the endpoints in the app
