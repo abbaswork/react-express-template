@@ -113,7 +113,7 @@ where the folders would be:
 - views: view template (express)
 - config: env variables and config files
 - jobs: jobs to be carried out by workers
-- loaders: splitting up startup proces into modules (DB, ORM, Redis, etc connections)
+- loaders: splitting up startup proces into modules (Express, PSQL, Sequelize, Redis, etc. connections)
 - models: Database models
 - services: Bussiness logic
 
