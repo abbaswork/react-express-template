@@ -71,6 +71,9 @@ The [express generator](https://developer.mozilla.org/en-US/docs/Learn/Server-si
     - [morgan](https://www.npmjs.com/package/morgan): logging
     - [http-errors](https://www.npmjs.com/package/http-errors): send http errors
 
+Manually added middleware:
+- [Cors](https://www.npmjs.com/package/cors): configure cors in express
+
 
 ## Dev Dependencies
 
@@ -104,7 +107,7 @@ The project structure uses CommonJs along with the 3 layer architecture for effe
 
 where the folders would be:
 
-- bin: app entry point using app.js
+- bin: server entry point, www introduced in express 4 to maintaine middleware independently
 - routes: route controllers for all the endpoints in the app
 - public: js, css and image files
 - views: view template (express)
