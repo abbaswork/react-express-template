@@ -39,7 +39,7 @@ npm install node-sass --save
 
 ## Project Structure
 
-Folder structure uses default create-react-app structure, inside of src files, folder structure is organised by feature type.
+Folder structure uses default create-react-app structure. Inside of src files the folder structure is organised by feature type.
 
 - public: static assets
 - src: js files
@@ -48,8 +48,7 @@ Folder structure uses default create-react-app structure, inside of src files, f
     - constants: such as action-types
     - util: utility functions
     - common: example folder to hold common components
-    - profile: example feature folder that would contain profile components and related files
-
+    - pages: example feature folder that would contain all pages
 
 # Server Setup
 
@@ -109,7 +108,7 @@ The project structure uses CommonJs along with the 3 layer architecture for effe
 where the folders would be:
 
 - bin: server entry point, www introduced in express 4 to maintaine middleware independently
-- routes: route controllers for all the endpoints in the app
+- routes: REST API endpoints and defenition
 - public: js, css and image files
 - views: view template (express)
 - config: env variables and config files
