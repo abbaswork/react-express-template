@@ -29,21 +29,21 @@ To analyze for bloat an "analyze" script was setup in package.json
 
 ### Sass
 
-Sass is CSS preprocessor, installed as a developer dependency with
+Sass is a CSS preprocessor, installed as a developer dependency with
 ```sh
 npm install node-sass --save
 ```
 
 ### Client Project Structure
 
-- public    # static assets
-- src       # js files
-    - assets        # css, scss files
-    - configure     # configure variables such as Redux stores
-    - constants     # such as action-types
-    - util          # utility functions
-    - common        # example folder to hold common components
-    - profile       # example feature folder that would contain profile components and related files
+- public: static assets
+- src: js files
+    - assets: css, scss files
+    - configure: configure variables such as Redux stores
+    - constants: such as action-types
+    - util: utility functions
+    - common: example folder to hold common components
+    - profile: example feature folder that would contain profile components and related files
 
 
 ## Server Setup
@@ -101,13 +101,13 @@ The project structure uses CommonJs along with the 3 layer architecture for effe
 
 where the folders would be:
 
-- bin       # app entry point using app.js
-- routes    # route controllers for all the endpoints in the app
-- public    # js, css and image files
-- views     # view template (express)
-- config    # env variables and config files
-- jobs      # jobs to be carried out by workers
-- loaders   # splitting up startup proces into modules (DB, ORM, Redis, etc connections)
-- models    # Database models
-- services  # Bussiness logic
+- bin: app entry point using app.js
+- routes: route controllers for all the endpoints in the app
+- public: js, css and image files
+- views: view template (express)
+- config: env variables and config files
+- jobs: jobs to be carried out by workers
+- loaders: splitting up startup proces into modules (DB, ORM, Redis, etc connections)
+- models: Database models
+- services: Bussiness logic
 
