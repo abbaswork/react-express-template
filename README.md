@@ -46,7 +46,7 @@ npm install node-sass --save
     - profile: example feature folder that would contain profile components and related files
 
 
-## Server Setup
+# Server Setup
 
 ### Express
 
@@ -66,7 +66,7 @@ The [express generator](https://developer.mozilla.org/en-US/docs/Learn/Server-si
     - [http-errors](https://www.npmjs.com/package/http-errors): send http errors
 
 
-## Dev Dependencies
+## Server Dev Dependencies
 
 These are installed as dependencies only used during development.
 
@@ -92,7 +92,7 @@ eslint --init
 
 Default gitignore file used to ignore project dependencies (node_moddules)
 
-## Server Project Structure
+### Server Project Structure
 
 The project structure uses CommonJs along with the 3 layer architecture for effective seperation of concerns, where the layers are:
 1. Controller (routes): contains route controllers
