@@ -18,18 +18,32 @@ The [create-react-app](https://github.com/facebook/create-react-app) package com
 - easy updates with single dependancy
 - along with a simple starting directory structure and starter package.json
 
-## Sass
+### Source Map Explorer
 
-Sass is a css precompiled processor for easy and effective css handeling, installed with:
+Source map explorer analyzes JavaScript bundles using the source maps. This helps you understand where code bloat is coming from.
 ```sh
-npm install node-sass
+npm install --save source-map-explorer
+```
+
+To analyze for bloat an "analyze" script was setup in package.json
+
+### Sass
+
+Sass is CSS preprocessor, installed as a developer dependency with
+```sh
+npm install node-sass --save
 ```
 
 ### Client Project Structure
 
 - public    # static assets
 - src       # js files
-
+    - assets        # css, scss files
+    - configure     # configure variables such as Redux stores
+    - constants     # such as action-types
+    - util          # utility functions
+    - common        # example folder to hold common components
+    - profile       # example feature folder that would contain profile components and related files
 
 
 ## Server Setup
