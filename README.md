@@ -1,6 +1,6 @@
 # Client Setup
 
-## Client Framework
+## Framework
 
 ### React
 
@@ -18,7 +18,7 @@ The [create-react-app](https://github.com/facebook/create-react-app) package com
 - easy updates with single dependancy
 - along with a simple starting directory structure and starter package.json
 
-## Client Dev Dependencies
+## Dev Dependencies
 
 ### Source Map Explorer
 
@@ -36,7 +36,7 @@ Sass is a CSS preprocessor, installed as a developer dependency with
 npm install node-sass --save
 ```
 
-## Client Project Structure
+## Project Structure
 
 Folder structure uses default create-react-app structure, inside of src files, folder structure is organised by feature type.
 
@@ -52,7 +52,7 @@ Folder structure uses default create-react-app structure, inside of src files, f
 
 # Server Setup
 
-## Server Framework
+## Framework
 
 ### Express
 
@@ -72,7 +72,7 @@ The [express generator](https://developer.mozilla.org/en-US/docs/Learn/Server-si
     - [http-errors](https://www.npmjs.com/package/http-errors): send http errors
 
 
-## Server Dev Dependencies
+## Dev Dependencies
 
 These are installed as dependencies only used during development.
 
@@ -95,7 +95,7 @@ A seperate "lint" script is added to the package.json to check js files. The esl
 eslint --init
 ```
 
-## Server Project Structure
+## Project Structure
 
 The project structure uses CommonJs along with the 3 layer architecture for effective seperation of concerns, where the layers are:
 1. Controller (routes): contains route controllers
