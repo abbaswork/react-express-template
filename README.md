@@ -98,6 +98,14 @@ A seperate "lint" script is added to the package.json to check js files. The esl
 eslint --init
 ```
 
+### Dotenv
+
+dotenv is used to store configuration in .env, where the .env file is not submitted to Git. It will installed as a dev dependancy as production keys are stored on the server:
+
+```sh
+$ npm install --save-dev dotenv
+```
+
 ## Project Structure
 
 The project structure uses CommonJs along with the 3 layer architecture for effective seperation of concerns, where the layers are:
